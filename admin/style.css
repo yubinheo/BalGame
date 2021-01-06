@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Jua', sans-serif;
+}
+
+body {
+    background-color: #91AB95;
+    background-color: -webkit-linear-gradient(to right, #348f50, #56b4d3);
+    background-color: linear-gradient(to right, #348f50, #56b4d3);
+
+}
+
+.login-form {
+    position: absolute;
+    background-color: #EEEFF1;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reg-form {
+    position: absolute;
+    background-color: #EEEFF1;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+
+h1 { 
+    color: gray; 
+    font-size: 80px; 
+    font-weight: normal; 
+    line-height: 50px; 
+    margin: 20px; 
+    text-align: center; 
+    text-shadow: 1px 1px 2px #082b34; 
+}
+
+.text-field {
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit-btn {
+    border: none;
+    width: 100%;
+    background-color: #1BBC9B;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    font-size: 12px;
+    color: #9B9B9B;
+}
